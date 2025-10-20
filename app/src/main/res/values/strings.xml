@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App name and headings -->
+    <!-- Название приложения и заголовки -->
     <string name="app_name">Pawstribe</string>
     <string name="app_title_prefix">Pawstribe - %1$s</string>
     <string name="settings_title">Settings</string>
     <string name="chat_title">Chat</string>
 
-    <!-- UI elements -->
+    <!-- Элементы интерфейса -->
     <string name="back">Back</string>
     <string name="send">Send</string>
     <string name="lock">Lock</string>
@@ -43,54 +43,54 @@
     <string name="trigger_how_are_you">how are you</string>
     <string name="trigger_thanks">thanks</string>
     <string name="unknown_value">unknown</string>
-
-    <!-- Dialog messages -->
+    
+    <!-- Диалоговые сообщения -->
     <string name="welcome_message">Welcome!</string>
     <string name="typing">typing...</string>
 
-    <!-- Idle messages -->
+    <!-- Idle сообщения -->
     <string name="idle_msg_1">Hey, are you there?</string>
     <string name="idle_msg_2">It's gotten quiet...</string>
     <string name="idle_msg_3">Tell me what's on your mind?</string>
 
-    <!-- Default replies -->
+    <!-- Ответы по умолчанию -->
     <string name="default_response_hello">Hi! How can I help?</string>
     <string name="default_response_how_are_you">I'm great — how about you?</string>
-    <string name="default_response_unknown">I didn't understand that. Try another phrasing.</string>
+    <string name="default_response_unknown">I didn't understand the request. Try another phrasing.</string>
 
-    <!-- Date/time replies -->
+    <!-- Ответы для времени и даты -->
     <string name="date_response">Today is %1$s.</string>
     <string name="day_response">Today is %1$s.</string>
-    <string name="year_response">It's %1$s.</string>
+    <string name="year_response">It's %1$s year now.</string>
     <string name="date_day_response">Today is %1$s, %2$s.</string>
 
-    <!-- Antispam -->
-    <string name="antispam_1">You're getting repetitive — try something new!</string>
+    <!-- Антиспам -->
+    <string name="antispam_1">You're annoying me — try something new!</string>
     <string name="antispam_2">Don't spam!</string>
     <string name="antispam_3">I'm tired of repeats!</string>
     <string name="antispam_4">Come up with something more interesting.</string>
-    <string name="antispam_5">Hey, don't keep repeating that, buddy!</string>
-    <string name="antispam_6">Mix it up, repeat offender!</string>
+    <string name="antispam_5">Hey, don't get stuck on that nonsense, buddy!</string>
+    <string name="antispam_6">Let's have some variety, repeat offender!</string>
     <string name="antispam_7">Too much fuss — I'm not a robot... well, almost.</string>
     <string name="antispam_8">Please don't spam; ask a new question!</string>
-    <string name="antispam_9">Five times the same? Brilliant. Try something different.</string>
-    <string name="antispam_10">My processor's melting from repeats. Oh wait — that's yours.</string>
+    <string name="antispam_9">Five times the same? You genius. Try something different.</string>
+    <string name="antispam_10">My processor is melting from repeats. Oh wait — that's yours.</string>
 
-    <!-- Battery messages -->
-    <string name="battery_urgent_warning">This is serious. Plug it in.</string>
+    <!-- Сообщения о батарее -->
+    <string name="battery_urgent_warning">This is not a joke. Plug it in.</string>
     <string name="battery_warning_1">Please plug in your device — the battery is almost dead.</string>
-    <string name="battery_warning_2">Low battery; consider connecting the charger.</string>
-    <string name="battery_warning_3">Only a little charge left. Please plug in your phone.</string>
+    <string name="battery_warning_2">Low battery, it's better to connect the charger.</string>
+    <string name="battery_warning_3">Only a little charge left, please plug your phone in.</string>
 
-    <!-- Command messages -->
+    <!-- Сообщения для команд -->
     <string name="reloading_templates">Reloading templates...</string>
     <string name="templates_reloaded">Templates reloaded.</string>
     <string name="stats_template">Context: %1$s. Templates: %2$d. Key responses: %3$d.</string>
     <string name="chat_cleared">Chat cleared. Returning to start.</string>
     <string name="unknown_command">Unknown command: %1$s</string>
 
-    <!-- Error messages -->
-    <string name="toast_folder_not_selected">No folder selected! Open settings and choose a folder.</string>
+    <!-- Сообщения об ошибках -->
+    <string name="toast_folder_not_selected">Folder not selected! Open settings and choose a folder.</string>
     <string name="error_loading_ouch">Error loading ouch.txt: %1$s</string>
     <string name="error_loading_timetosleep">Error loading timetosleep.txt: %1$s</string>
     <string name="error_loading_cldsys">Error loading cldsys.txt: %1$s</string>
@@ -98,10 +98,10 @@
     <string name="error_loading_mascot_metadata">Error loading mascot metadata: %1$s</string>
     <string name="error_loading_batterycare">Error loading batterycare.txt: %1$s</string>
 
-    <!-- SetupActivity strings -->
+    <!-- Строки, используемые в SetupActivity -->
     <string name="error_no_permission">No permission to access the selected folder.</string>
-    <string name="error_no_folder_selected">Folder not selected. Please point to the templates folder.</string>
-    <string name="error_folder_unavailable">The specified folder is unavailable or was removed.</string>
+    <string name="error_no_folder_selected">Folder not selected. Please specify the templates folder.</string>
+    <string name="error_folder_unavailable">The specified folder is unavailable or has been removed.</string>
     <string name="no_supported_files_in_assets">No supported template files found in assets.</string>
     <string name="files_copied_successfully">Files copied successfully.</string>
     <string name="error_copying_files">Error copying files: %1$s</string>
@@ -112,19 +112,19 @@
     <string name="fallback_3">Hmm</string>
     <string name="fallback_4">How's it going?</string>
 
-    <!-- Templates -->
+    <!-- Шаблоны -->
     <string name="tpl_greeting_1">Hi! How can I help?</string>
     <string name="tpl_greeting_2">Hello!</string>
     <string name="tpl_howareyou_1">I'm great — how about you?</string>
     <string name="tpl_howareyou_2">Not bad, how are you?</string>
     <string name="tpl_thanks_1">Glad I could help!</string>
-    <string name="tpl_thanks_2">You're welcome!</string>
+    <string name="tpl_thanks_2">Always welcome!</string>
 
-    <!-- Default replies -->
-    <string name="dummy_greeting">Hi! I'm still learning to answer.</string>
+    <!-- Дефолтные ответы -->
+    <string name="dummy_greeting">Hi! I'm still learning to respond.</string>
     <string name="dummy_unknown">Hmm... I don't know what to say. Life didn't prepare me for this.</string>
 
-    <!-- Random greetings for MainActivity -->
+    <!-- Случайные приветствия для MainActivity -->
     <string-array name="greetings">
         <item>Talking cyber-critters!</item>
         <item>Is it 2017... or 2020?</item>
@@ -139,7 +139,7 @@
         <item>Come on, kiddo, tell me.</item>
         <item>Booting the matrix...</item>
         <item>Dude, I'm not joking!</item>
-        <item>Tili-tili boom...</item>
+        <item>Tili-tili bom...</item>
         <item>Pawstribe incorporated</item>
         <item>Love us? No? Then we're coming for you!</item>
         <item>Hey, I'm actually a waffle!</item>
@@ -147,11 +147,11 @@
         <item>What did you want?</item>
         <item>Drop by if you need anything!</item>
         <item>Wanna chat?</item>
-        <item>I'm not an owl, but I study languages!</item>
-        <item>LLM on a budget!</item>
+        <item>I'm not an owl, but I learn languages!</item>
+        <item>LLM on a shoestring!</item>
     </string-array>
 
-    <!-- Additional assistant strings -->
+    <!-- Дополнительные строки (ассистент) -->
     <string name="hint_input">Enter a command</string>
 
     <!-- Errors / usage -->
@@ -160,7 +160,7 @@
     <string name="err_processing_command">Error while processing command</string>
 
     <string name="usage_entropy">Usage: entropy &lt;text&gt;</string>
-    <string name="usage_traffic">Can't recognize the amount. Example: traffic 5gb</string>
+    <string name="usage_traffic">Cannot recognize the amount. Example: traffic 5gb</string>
     <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%%&gt; [time]</string>
     <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%%&gt; [time] [monthly/daily/annual]</string>
     <string name="usage_monthly">Usage: monthly income &lt;amount&gt; [working &lt;hours&gt;]</string>
@@ -169,8 +169,8 @@
     <!-- Entropy outputs -->
     <string name="entropy_per_symbol_bytes">Entropy (bytes): %1$s bits/symbol</string>
     <string name="entropy_total_bits_bytes">Total entropy (bytes): %1$s bits (length %2$d bytes)</string>
-    <string name="entropy_per_symbol_codepoints">Entropy (characters): %1$s bits/symbol</string>
-    <string name="entropy_total_bits_codepoints">Total entropy (characters): %1$s bits (length %2$d characters)</string>
+    <string name="entropy_per_symbol_codepoints">Entropy (codepoints): %1$s bits/symbol</string>
+    <string name="entropy_total_bits_codepoints">Total entropy (codepoints): %1$s bits (length %2$d characters)</string>
     <string name="entropy_strength">Strength rating: %1$s</string>
 
     <string name="entropy_label_weak">Weak</string>
@@ -183,7 +183,7 @@
     <string name="traffic_per_day">Per day: %1$s</string>
     <string name="traffic_per_hour">Per hour: %1$s</string>
     <string name="traffic_per_min">Per minute: %1$s</string>
-    <string name="traffic_per_sec">Per second: %1$s</string>
+    <string name="traffic_per_sec">Per second / speed: %1$s</string>
 
     <!-- Simple percent outputs -->
     <string name="simple_percent_header">Simple interest:</string>
@@ -211,7 +211,7 @@
     <string name="monthly_hour_24">Per hour (24/day): %1$s</string>
     <string name="monthly_hour_work">Per hour (work %1$d): %2$s</string>
 
-    <string name="welcome_messagen">Financial calculator. Please type "help" for the list of available commands.</string>
+    <string name="welcome_messagen">Financial calculator. Please type &quot;help&quot; for the list of available commands.</string>
     <string name="cmd_entropy_prefix">entrop</string>
 
     <string name="greeting">Good day!</string>
