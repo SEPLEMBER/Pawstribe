@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Название приложения и заголовки -->
+    <string name="app_name">Pawstribe</string>
+    <string name="app_title_prefix">Pawstribe - %1$s</string>
+    <string name="settings_title">Настройки</string>
+    <string name="chat_title">Чат</string>
+
+    <!-- Элементы интерфейса -->
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+    <string name="lock">Заблокировать</string>
+    <string name="trash">Очистить чат</string>
+    <string name="envelope">Сообщения</string>
+    <string name="settings">Настройки</string>
+    <string name="battery">Батарея</string>
+    <string name="charging">Зарядка</string>
+    <string name="info">Информация</string>
+    <string name="time">Время</string>
+    <string name="save_templates">Сохранить шаблоны</string>
+    <string name="clear_cache">Очистить SharedPrefs</string>
+    <string name="templates_hint">Каждый шаблон в новой строке. Формат: триггер=ответ</string>
+    <string name="start_chat">Перейти в чат</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="avatar">Аватар</string>
+    <string name="open_settings">Открыть настройки</string>
+    <string name="user_label">Пользователь</string>
+    <string name="setupfold">Установить</string>
+    <string name="setup">Счетовод</string>
+    <string name="connecting">Подключение...</string>
+    <string name="choose_template_version">Выберите версию шаблонов:</string>
+    <string name="select_folder_instruction">Выберите папку для сохранения шаблонов</string>
+    <string name="select_folder">Выбрать папку</string>
+    <string name="disable_screenshots">Запретить скриншоты</string>
+    <string name="folder_selected">Папка выбрана</string>
+    <string name="screenshots_disabled">Скриншоты запрещены</string>
+    <string name="screenshots_enabled">Скриншоты разрешены</string>
+    <string name="folder_unavailable">Ошибка: папка недоступна</string>
+    <string name="inp_text">Напиши сообщение...</string>
+
+    <string name="trigger_hello">привет</string>
+    <string name="trigger_how_are_you">как дела</string>
+    <string name="trigger_thanks">спасибо</string>
+    <string name="unknown_value">неизвестно</string>
+    
+    <!-- Диалоговые сообщения -->
+    <string name="welcome_message">Добро пожаловать!</string>
+    <string name="typing">печатает...</string>
+
+    <!-- Idle сообщения -->
+    <string name="idle_msg_1">Эй, ты здесь?</string>
+    <string name="idle_msg_2">Что-то тихо стало...</string>
+    <string name="idle_msg_3">Расскажи, о чём думаешь?</string>
+
+    <!-- Ответы по умолчанию -->
+    <string name="default_response_hello">Привет! Чем могу помочь?</string>
+    <string name="default_response_how_are_you">Всё отлично, а у тебя?</string>
+    <string name="default_response_unknown">Не понял запрос. Попробуй другой вариант.</string>
+
+    <!-- Ответы для времени и даты -->
+    <string name="date_response">Сегодня %1$s.</string>
+    <string name="day_response">Сегодня %1$s.</string>
+    <string name="year_response">Сейчас %1$s год.</string>
+    <string name="date_day_response">Сегодня %1$s, %2$s.</string>
+
+    <!-- Антиспам -->
+    <string name="antispam_1">Ты надоел, давай что-нибудь новенького!</string>
+    <string name="antispam_2">Спамить нехорошо!</string>
+    <string name="antispam_3">Я устал от повторений!</string>
+    <string name="antispam_4">Придумай что-то более интересное.</string>
+    <string name="antispam_5">Эй, не зацикливайся на этой ерунде, чувак!</string>
+    <string name="antispam_6">Давай разнообразие, повторяшка!</string>
+    <string name="antispam_7">Слишком много суеты, я же не робот... ну, почти.</string>
+    <string name="antispam_8">Не спамь, пожалуйста, задай новый вопрос!</string>
+    <string name="antispam_9">Пять раз одно и то же? Да ты гений! Попробуй что-нибудь другое.</string>
+    <string name="antispam_10">У меня уже процессор плавится от повторений. А, ой, это твой.</string>
+
+    <!-- Сообщения о батарее -->
+    <string name="battery_urgent_warning">Это не шутки. Поставь на зарядку.</string>
+    <string name="battery_warning_1">Пожалуйста, поставь устройство на зарядку — батарейка почти села.</string>
+    <string name="battery_warning_2">Аккумулятор низкий, лучше подключить зарядку.</string>
+    <string name="battery_warning_3">Осталось немного заряда, поставь телефон на заряд.</string>
+
+    <!-- Сообщения для команд -->
+    <string name="reloading_templates">Перезагружаю шаблоны...</string>
+    <string name="templates_reloaded">Шаблоны перезагружены.</string>
+    <string name="stats_template">Контекст: %1$s. Шаблонов: %2$d. Ключевых ответов: %3$d.</string>
+    <string name="chat_cleared">Чат очищен. Возвращаюсь к началу.</string>
+    <string name="unknown_command">Неизвестная команда: %1$s</string>
+
+    <!-- Сообщения об ошибках -->
+    <string name="toast_folder_not_selected">Папка не выбрана! Открой настройки и выбери папку.</string>
+    <string name="error_loading_ouch">Ошибка загрузки ouch.txt: %1$s</string>
+    <string name="error_loading_timetosleep">Ошибка загрузки timetosleep.txt: %1$s</string>
+    <string name="error_loading_cldsys">Ошибка загрузки cldsys.txt: %1$s</string>
+    <string name="error_reading_file">Ошибка чтения файла: %1$s</string>
+    <string name="error_loading_mascot_metadata">Ошибка загрузки метаданных маскота: %1$s</string>
+    <string name="error_loading_batterycare">Ошибка загрузки batterycare.txt: %1$s</string>
+
+    <!-- Строки, используемые в SetupActivity -->
+    <string name="error_no_permission">Нет прав для доступа к выбранной папки.</string>
+    <string name="error_no_folder_selected">Папка не выбрана. Пожалуйста, укажите папку с шаблонами.</string>
+    <string name="error_folder_unavailable">Указанная папка недоступна или была удалена.</string>
+    <string name="no_supported_files_in_assets">В assets отсутствуют поддерживаемые файлы шаблонов.</string>
+    <string name="files_copied_successfully">Файлы успешно скопированы.</string>
+    <string name="error_copying_files">Ошибка копирования файлов: %1$s</string>
+
+    <!-- Fallback -->
+    <string name="fallback_1">Что нового?</string>
+    <string name="fallback_2">Здравствуй!</string>
+    <string name="fallback_3">Хм</string>
+    <string name="fallback_4">Как дела?</string>
+
+    <!-- Шаблоны -->
+    <string name="tpl_greeting_1">Привет! Чем могу помочь?</string>
+    <string name="tpl_greeting_2">Здравствуй!</string>
+    <string name="tpl_howareyou_1">Всё отлично, а у тебя?</string>
+    <string name="tpl_howareyou_2">Нормально, как дела?</string>
+    <string name="tpl_thanks_1">Рад, что помог!</string>
+    <string name="tpl_thanks_2">Всегда пожалуйста!</string>
+
+    <!-- Дефолтные ответы -->
+    <string name="dummy_greeting">Привет! Я пока учусь отвечать.</string>
+    <string name="dummy_unknown">Хм... не знаю, что сказать. К такому жизнь меня не готовила.</string>
+
+    <!-- Случайные приветствия для MainActivity -->
+    <string-array name="greetings">
+        <item>Говорящие кибер-звери!</item>
+        <item>Сейчас 2017... Или 2020?</item>
+        <item>Математику не заказывали?</item>
+        <item>Ты кто?</item>
+        <item>2+2=5</item>
+        <item>Ракета! Опять ты за старое!</item>
+        <item>Мы ещё не закончили!</item>
+        <item>Crow, отдай мой сыр!</item>
+        <item>Чай будешь?</item>
+        <item>К такому жизнь меня не готовила...</item>
+        <item>Ну давай, сынок, рассказывай.</item>     
+        <item>Запускаем матрицу...</item>
+        <item>Чувак, я не шучу!</item>
+        <item>Тили-тили бом...</item>
+        <item>Pawstribe incorporated</item>
+        <item>Любите нас? Нет? Тогда мы идём к вам!</item>
+        <item>Эй, я вообще-то вафля!</item>
+        <item>Где я вообще?</item>
+        <item>Чего хотел?</item>
+        <item>Загляни к нам, если что!</item>
+        <item>Поболтаем?</item>
+        <item>Я, конечно, не сова, но языки учу!</item>
+        <item>LLM на минималках!</item>
+    </string-array>
+
+    <!-- Дополнительные строки (ассистент) -->
+    <string name="hint_input">Введите команду</string>
+
+    <!-- Errors / usage -->
+    <string name="err_empty_input">Пожалуйста, введите текст.</string>
+    <string name="err_invalid_amount">Неправильная сумма: %1$s</string>
+    <string name="err_processing_command">Ошибка при обработке команды</string>
+
+    <string name="usage_entropy">Использование: энтропия &lt;текст&gt;</string>
+    <string name="usage_traffic">Не могу распознать объём. Пример: трафик 5gb</string>
+    <string name="usage_simple_percent">Использование: простые проценты &lt;сумма&gt; &lt;ставка%&gt; [время]</string>
+    <string name="usage_compound_percent">Использование: сложные проценты &lt;сумма&gt; &lt;ставка%&gt; [время] [помесячно/посуточно/годовая]</string>
+    <string name="usage_monthly">Использование: месячный доход &lt;сумма&gt; [рабочие &lt;hours&gt;]</string>
+    <string name="fallback_unknown_command">Не распознанная команда.</string>
+
+    <!-- Entropy outputs -->
+    <string name="entropy_per_symbol_bytes">Энтропия (байт): %1$s бит/символ</string>
+    <string name="entropy_total_bits_bytes">Полная энтропия (байты): %1$s бит (длина %2$d байт)</string>
+    <string name="entropy_per_symbol_codepoints">Энтропия (символы): %1$s бит/символ</string>
+    <string name="entropy_total_bits_codepoints">Полная энтропия (символы): %1$s бит (длина %2$d символов)</string>
+    <string name="entropy_strength">Оценка силы: %1$s</string>
+
+    <string name="entropy_label_weak">Слабо</string>
+    <string name="entropy_label_acceptable">Приемлемо</string>
+    <string name="entropy_label_normal">Нормально</string>
+    <string name="entropy_label_strong">Сильно</string>
+
+    <!-- Traffic outputs -->
+    <string name="traffic_input_approx">%1$s ≈ %2$s / мес</string>
+    <string name="traffic_per_day">В день: %1$s</string>
+    <string name="traffic_per_hour">В час: %1$s</string>
+    <string name="traffic_per_min">В минуту: %1$s</string>
+    <string name="traffic_per_sec">Секунда / скорость: %1$s</string>
+
+    <!-- Simple percent outputs -->
+    <string name="simple_percent_header">Простой процент:</string>
+    <string name="simple_percent_principal">Вложено: %1$s</string>
+    <string name="simple_percent_rate">Годовая ставка: %1$s%%</string>
+    <string name="simple_percent_period">Период: %1$s лет</string>
+    <string name="simple_percent_total">Итого через период: %1$s (прибыль %2$s)</string>
+    <string name="simple_percent_yearly">Прибыль в год (средн.): %1$s</string>
+    <string name="simple_percent_month_day_hour">в месяц: %1$s, в день: %2$s, в час: %3$s</string>
+
+    <!-- Compound percent outputs -->
+    <string name="compound_percent_header">Сложные проценты (%1$s):</string>
+    <string name="compound_percent_principal">Вложено: %1$s</string>
+    <string name="compound_percent_rate">Годовая ставка: %1$s%%</string>
+    <string name="compound_percent_period">Период: %1$s лет</string>
+    <string name="compound_percent_total">Итоговая сумма: %1$s (прибыль %2$s)</string>
+    <string name="compound_percent_avg_year">Средняя прибыль в год: %1$s</string>
+    <string name="compound_percent_month_day_hour">в месяц: %1$s, в день: %2$s, в час: %3$s</string>
+
+    <!-- Monthly conversion -->
+    <string name="monthly_header">Перевод месячной суммы:</string>
+    <string name="monthly_amount">Месячная сумма: %1$s</string>
+    <string name="monthly_year">Год: %1$s</string>
+    <string name="monthly_day">День (30d): %1$s</string>
+    <string name="monthly_hour_24">В час (24/сут): %1$s</string>
+    <string name="monthly_hour_work">В час (рабочие %1$d): %2$s</string>
+
+    <string name="welcome_messagen">Финансовый вычислятор. Пожалуйста, введите «справка» для списка доступных команд.</string>
+    <string name="cmd_entropy_prefix">энтроп</string>
+
+    <string name="greeting">Добрый день!</string>
+    <string name="question">Что бы вы хотели вычислить?</string>
+    <string name="option_digital">&gt; Цифровые данные</string>
+    <string name="option_finances">&gt; Финансы</string>
+    <string name="option_physics">&gt; Физика</string>
+    <string name="option_other">&gt; ...</string>
+    <string name="note_experimental">Обратите внимание, что эта функция полностью экспериментальная.</string>
+    <string name="enter_choice">Пожалуйста, выберите опцию.</string>
+        <string name="password_saved">Пароль сохранён.</string>
+         <string name="enter_passkey">Введите пароль.</string>
+    <string name="password_cannot_be_empty">Пароль не может быть пустым</string>
+    <string name="redirect_english_finances">Перенаправление в финансы...</string>
+    <string name="redirect_russian_finances">Перенаправление в финансы...</string>
+    <string name="redirect_english_physics">Перенаправление в физику...</string>
+    <string name="redirect_russian_physics">Перенаправление в физику...</string>
+    <string name="redirect_main">Перенаправление в нужное меню...</string>
+    <string name="unknown_choice">Не понял вас. Пожалуйста, попробуйте конкретнее.</string>
+</resources>
