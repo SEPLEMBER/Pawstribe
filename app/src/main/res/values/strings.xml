@@ -161,8 +161,8 @@
 
     <string name="usage_entropy">Usage: entropy &lt;text&gt;</string>
     <string name="usage_traffic">Can't recognize the amount. Example: traffic 5gb</string>
-    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%&gt; [time]</string>
-    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%&gt; [time] [monthly/daily/annual]</string>
+    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%%&gt; [time]</string>
+    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%%&gt; [time] [monthly/daily/annual]</string>
     <string name="usage_monthly">Usage: monthly income &lt;amount&gt; [working &lt;hours&gt;]</string>
     <string name="fallback_unknown_command">Unrecognized command.</string>
 
