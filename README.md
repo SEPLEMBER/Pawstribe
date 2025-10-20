@@ -60,3 +60,7 @@ The assistant’s effectiveness depends strongly on the quality of the models (t
 The app is signed with a **test signature** due to technical limitations. If you are concerned about that, feel free to rebuild the APK manually. Since the signature itself does not protect against tampering, a test one was used for simplicity.
 
 It is recommended to download the APK from **syndes rep** or from the **Releases** section of this repository. Even though it uses a test signature, the APK is a **release build** with debugging disabled.
+
+## Note 3
+
+Я буду рад любым улучшениям и дополнением. Как и остальные проекты, этот — для меня всего лишь хобби. Я надеюсь, кому-нибудь также будет интересен этот проект. Приветствую пользователей и разработчиков не только из России, но и из других стран тоже. Всего хорошего, друзья!
