@@ -1,0 +1,101 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.pawstribe.assistant">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="30"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="30"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="34">
+
+        <activity
+        android:name=".MainActivity"
+        android:theme="@style/AppTheme"
+        android:exported="true">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/SettingsTheme"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".PostsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".SetupActivity"
+            android:exported="false"
+            android:parentActivityName=".ChatActivity"
+            android:theme="@style/SetupTheme"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".locale.RuFinAsActivity"
+            android:exported="false"
+            android:parentActivityName=".ArrivalActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".locale.EnFinAsActivity"
+            android:exported="false"
+            android:parentActivityName=".ArrivalActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+
+                                <activity
+            android:name=".locale.EnPhysAsActivity"
+            android:exported="false"
+            android:parentActivityName=".ArrivalActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+        
+                        <activity
+            android:name=".locale.RuPhysAsActivity"
+            android:exported="false"
+            android:parentActivityName=".ArrivalActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+
+                                <activity
+            android:name=".RuDigAsActivity"
+            android:exported="false"
+            android:parentActivityName=".ArrivalActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+
+                                <activity
+            android:name=".ArrivalActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/VprTheme"
+            android:configChanges="orientation|screenSize" />
+
+    </application>
+</manifest>
