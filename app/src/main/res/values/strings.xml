@@ -65,12 +65,12 @@
     <string name="date_day_response">Today is %1$s, %2$s.</string>
 
     <!-- Антиспам -->
-    <string name="antispam_1">You\'re annoying me — try something new!</string>
+    <string name="antispam_1">You\'re getting repetitive — try something new!</string>
     <string name="antispam_2">Don\'t spam!</string>
     <string name="antispam_3">I\'m tired of repeats!</string>
     <string name="antispam_4">Come up with something more interesting.</string>
-    <string name="antispam_5">Hey, don\'t get stuck on that nonsense, buddy!</string>
-    <string name="antispam_6">Let\'s have some variety, repeat offender!</string>
+    <string name="antispam_5">Hey, don\'t keep repeating that nonsense, buddy!</string>
+    <string name="antispam_6">Mix it up, repeat offender!</string>
     <string name="antispam_7">Too much fuss — I\'m not a robot... well, almost.</string>
     <string name="antispam_8">Please don\'t spam; ask a new question!</string>
     <string name="antispam_9">Five times the same? You genius. Try something different.</string>
@@ -98,7 +98,7 @@
     <string name="error_loading_mascot_metadata">Error loading mascot metadata: %1$s</string>
     <string name="error_loading_batterycare">Error loading batterycare.txt: %1$s</string>
 
-    <!-- Строки, используемые в SetupActivity -->
+    <!-- Строки, использующиеся в SetupActivity -->
     <string name="error_no_permission">No permission to access the selected folder.</string>
     <string name="error_no_folder_selected">Folder not selected. Please specify the templates folder.</string>
     <string name="error_folder_unavailable">The specified folder is unavailable or has been removed.</string>
@@ -136,7 +136,7 @@
         <item>Crow, give me back my cheese!</item>
         <item>Want some tea?</item>
         <item>Life didn\'t prepare me for this...</item>
-        <item>Come on, kiddo, tell me.</item>
+        <item>Come on, kiddo, tell me.</item>     
         <item>Booting the matrix...</item>
         <item>Dude, I\'m not joking!</item>
         <item>Tili-tili bom...</item>
@@ -161,8 +161,8 @@
 
     <string name="usage_entropy">Usage: entropy &lt;text&gt;</string>
     <string name="usage_traffic">Cannot recognize the amount. Example: traffic 5gb</string>
-    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate&gt; [time]</string>
-    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate&gt; [time] [monthly/daily/annual]</string>
+    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%%&gt; [time]</string>
+    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%%&gt; [time] [monthly/daily/annual]</string>
     <string name="usage_monthly">Usage: monthly income &lt;amount&gt; [working &lt;hours&gt;]</string>
     <string name="fallback_unknown_command">Unrecognized command.</string>
 
@@ -197,7 +197,7 @@
     <!-- Compound percent outputs -->
     <string name="compound_percent_header">Compound interest (%1$s):</string>
     <string name="compound_percent_principal">Principal: %1$s</string>
-    <string name="compound_percent_rate">Annual rate: %1$s%</string>
+    <string name="compound_percent_rate">Annual rate: %1$s%%</string>
     <string name="compound_percent_period">Period: %1$s years</string>
     <string name="compound_percent_total">Final amount: %1$s (gain %2$s)</string>
     <string name="compound_percent_avg_year">Average yearly gain: %1$s</string>
@@ -211,7 +211,7 @@
     <string name="monthly_hour_24">Per hour (24/day): %1$s</string>
     <string name="monthly_hour_work">Per hour (work %1$d): %2$s</string>
 
-    <string name="welcome_messagen">Financial calculator. Please type &quot;help&quot; for the list of available commands.</string>
+    <string name="welcome_messagen">Financial calculator. Please type help for the list of available commands.</string>
     <string name="cmd_entropy_prefix">entrop</string>
 
     <string name="greeting">Good day!</string>
