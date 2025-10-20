@@ -161,8 +161,8 @@
 
     <string name="usage_entropy">Usage: entropy &lt;text&gt;</string>
     <string name="usage_traffic">Cannot recognize the amount. Example: traffic 5gb</string>
-    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%%&gt; [time]</string>
-    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%%&gt; [time] [monthly/daily/annual]</string>
+    <string name="usage_simple_percent">Usage: simple percent &lt;amount&gt; &lt;rate%&gt; [time]</string>
+    <string name="usage_compound_percent">Usage: compound interest &lt;amount&gt; &lt;rate%&gt; [time] [monthly/daily/annual]</string>
     <string name="usage_monthly">Usage: monthly income &lt;amount&gt; [working &lt;hours&gt;]</string>
     <string name="fallback_unknown_command">Unrecognized command.</string>
 
@@ -188,7 +188,7 @@
     <!-- Simple percent outputs -->
     <string name="simple_percent_header">Simple interest:</string>
     <string name="simple_percent_principal">Principal: %1$s</string>
-    <string name="simple_percent_rate">Annual rate: %1$s%%</string>
+    <string name="simple_percent_rate">Annual rate: %1$s%</string>
     <string name="simple_percent_period">Period: %1$s years</string>
     <string name="simple_percent_total">Total after period: %1$s (gain %2$s)</string>
     <string name="simple_percent_yearly">Average yearly gain: %1$s</string>
@@ -197,7 +197,7 @@
     <!-- Compound percent outputs -->
     <string name="compound_percent_header">Compound interest (%1$s):</string>
     <string name="compound_percent_principal">Principal: %1$s</string>
-    <string name="compound_percent_rate">Annual rate: %1$s%%</string>
+    <string name="compound_percent_rate">Annual rate: %1$s%</string>
     <string name="compound_percent_period">Period: %1$s years</string>
     <string name="compound_percent_total">Final amount: %1$s (gain %2$s)</string>
     <string name="compound_percent_avg_year">Average yearly gain: %1$s</string>
