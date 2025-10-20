@@ -188,7 +188,7 @@
     <!-- Simple percent outputs -->
     <string name="simple_percent_header">Simple interest:</string>
     <string name="simple_percent_principal">Principal: %1$s</string>
-    <string name="simple_percent_rate">Annual rate: %1$s%</string>
+    <string name="simple_percent_rate">Annual rate: %1$s%%</string>
     <string name="simple_percent_period">Period: %1$s years</string>
     <string name="simple_percent_total">Total after period: %1$s (gain %2$s)</string>
     <string name="simple_percent_yearly">Average yearly gain: %1$s</string>
