@@ -1,4 +1,4 @@
-# Non-commercial Rule-based Chat Assistant (offline, Android)
+Non-commercial Rule-based Chat Assistant (offline, Android)
 
 A compact offline chat assistant built on rules — lightweight and designed to run on low-end devices (currently Android). The system is split into two complementary parts that produce synergy:
 
