@@ -16,7 +16,7 @@ A compact offline chat assistant built on rules — lightweight and designed to 
 5. **TTS (text-to-speech)** — local speech synthesis for answer playback.  
 6. **Response variability** — multiple phrasings per scenario for naturalness.  
 7. **Flexible model customization** — easily create models for different domains (e.g., mental health support, school tutoring). You can keep unlimited distinct models to optimize behavior per domain.  
-8. **Unlimited characters / mascots** — switchable personas and voices.  
+8. **Unlimited characters / mascots** — switchable personas.  
 9. **Privacy-focused design** — sensitive data stays local. Note: if a device is rooted, system security depends on the device/firmware.  
 10. **Integration potential** — theoretical support for syncing with other apps.  
 11. **Language-agnostic engine** — works with rule models in any language.
