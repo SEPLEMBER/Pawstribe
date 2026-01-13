@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         setupText.setOnClickListener {
-            val i = Intent(this@MainActivity, ArrivalActivity::class.java)
+            val i = Intent(this@MainActivity, SetupActivity::class.java)
             startActivity(i)
         }
 
