@@ -1577,7 +1577,7 @@ class ChatActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             // Schedule hide after 7 seconds on the main dispatcher
             lifecycleScope.launch(Dispatchers.Main) {
                 try {
-                    delay(7000)
+                    delay(12000)
                     // Fade out and then hide/remove
                     startupOverlay?.animate()?.alpha(0f)?.setDuration(300)?.withEndAction {
                         try {
