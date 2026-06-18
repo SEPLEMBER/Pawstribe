@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/chat_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/matte_black">
+    android:background="@color/matte_black"
+    android:saveEnabled="false">
 
-    <!-- Original content moved inside a container so we can overlay the startup view on top -->
     <LinearLayout
         android:id="@+id/chat_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/matte_black"
-        android:padding="8dp">
+        android:padding="8dp"
+        android:saveEnabled="false">
 
-        <!-- Top bar: Battery icon + percentage (left), time (center), icons (right) -->
         <LinearLayout
             android:id="@+id/topBar"
             android:layout_width="match_parent"
@@ -26,7 +27,6 @@
             android:paddingEnd="8dp"
             android:background="@color/matte_black">
 
-            <!-- Left section: Battery icon and percentage -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -53,7 +53,6 @@
                     android:fontFamily="monospace" />
             </LinearLayout>
 
-            <!-- Centered time -->
             <TextView
                 android:id="@+id/time_text"
                 android:layout_width="0dp"
@@ -65,7 +64,6 @@
                 android:gravity="center"
                 android:fontFamily="monospace" />
 
-            <!-- Right section: Icons -->
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -136,7 +134,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Chat area background slightly lighter than page -->
         <ScrollView
             android:id="@+id/scrollView"
             android:layout_width="match_parent"
@@ -144,16 +141,19 @@
             android:layout_weight="1"
             android:fillViewport="true"
             android:background="@color/matte_black"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:saveEnabled="false">
 
             <LinearLayout
                 android:id="@+id/chatMessagesContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                android:orientation="vertical"
+                android:saveEnabled="false"
+                android:freezesText="false" />
+
         </ScrollView>
 
-        <!-- Input row: text + envelope (send) -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -168,6 +168,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+
+                android:saveEnabled="false"
+                android:freezesText="false"
+                android:importantForAutofill="no"
+
                 android:hint="@string/inp_text"
                 android:textColor="@color/neon_cyan"
                 android:textColorHint="@color/neon_cyan"
@@ -191,8 +196,6 @@
 
     </LinearLayout>
 
-    <!-- STARTUP OVERLAY (Variant A) -->
-    <!-- Visible on startup; placed last so it sits above the rest of UI -->
     <FrameLayout
         android:id="@+id/startup_overlay"
         android:layout_width="match_parent"
@@ -200,7 +203,8 @@
         android:background="#0A0A0A"
         android:visibility="visible"
         android:clickable="true"
-        android:focusable="true">
+        android:focusable="true"
+        android:saveEnabled="false">
 
         <TextView
             android:id="@+id/startup_overlay_text"
@@ -215,7 +219,7 @@
             android:padding="8dp"
             android:gravity="center"
             android:textColor="@color/neon_cyan" />
+
     </FrameLayout>
-    <!-- END STARTUP OVERLAY -->
 
 </FrameLayout>
