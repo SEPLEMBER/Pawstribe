@@ -45,8 +45,8 @@
     <string name="unknown_value">неизвестно</string>
     
     <!-- Диалоговые сообщения -->
-    <string name="welcome_message">Добро пожаловать!</string>
-    <string name="typing">печатает...</string>
+    <string name="welcome_message">:)</string>
+    <string name="typing">   </string>
 
     <!-- Idle сообщения -->
     <string name="idle_msg_1">Эй, ты здесь?</string>
@@ -56,7 +56,7 @@
     <!-- Ответы по умолчанию -->
     <string name="default_response_hello">Привет! Чем могу помочь?</string>
     <string name="default_response_how_are_you">Всё отлично, а у тебя?</string>
-    <string name="default_response_unknown">Не понял запрос. Попробуй другой вариант.</string>
+    <string name="default_response_unknown">¯\_(ツ)_/¯</string>
 
     <!-- Ответы для времени и даты -->
     <string name="date_response">Сегодня %1$s.</string>
@@ -74,7 +74,7 @@
     <string name="antispam_7">Слишком много суеты, я же не робот... ну, почти.</string>
     <string name="antispam_8">Не спамь, пожалуйста, задай новый вопрос!</string>
     <string name="antispam_9">Пять раз одно и то же? Да ты гений! Попробуй что-нибудь другое.</string>
-    <string name="antispam_10">У меня уже процессор плавится от повторений. А, ой, это твой.</string>
+    <string name="antispam_10">У меня уже процессор плавится от повторений! А, ой, это твой.</string>
 
     <!-- Сообщения о батарее -->
     <string name="battery_urgent_warning">Это не шутки. Поставь на зарядку.</string>
@@ -121,8 +121,8 @@
     <string name="tpl_thanks_2">Всегда пожалуйста!</string>
 
     <!-- Дефолтные ответы -->
-    <string name="dummy_greeting">Привет! Я пока учусь отвечать.</string>
-    <string name="dummy_unknown">Хм... не знаю, что сказать. К такому жизнь меня не готовила.</string>
+    <string name="dummy_greeting">Ого! Черешня! Ахах, я пошутил!</string>
+    <string name="dummy_unknown">¯\_(ツ)_/¯</string>
 
     <!-- Случайные приветствия для MainActivity -->
     <string-array name="greetings">
